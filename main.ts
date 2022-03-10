@@ -136,7 +136,7 @@ let NOT_GUY = sprites.create(img`
     .......................
     .......................
     `, SpriteKind.Enemy)
-tiles.placeOnTile(NOT_GUY, tiles.getTileLocation(5, 10))
+tiles.placeOnTile(NOT_GUY, tiles.getTileLocation(5, 6))
 NOT_GUY.follow(GUY, 40)
 forever(function () {
     music.playMelody("E C D E D E G F ", 147)
