@@ -4,7 +4,13 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "radio-broadcast": "*"
+        "radio-broadcast": "*",
+        "sprite-scaling": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
+        "animation": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2"
     },
     "files": [
         "main.blocks",
@@ -24,5 +30,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
